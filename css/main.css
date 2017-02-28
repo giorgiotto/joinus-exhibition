@@ -1,0 +1,229 @@
+#SFONDO{
+    opacity: 1;
+}
+
+svg > g {
+	opacity:0;
+	display: block;
+	transition: all, 0.2s;
+}
+
+svg > g:hover {
+	opacity: 1
+}
+
+.none:hover {
+    opacity:0;
+}
+
+#manifesto {
+    font-family: Helvetica;
+    font-size: 70px;
+    font-weight: 900;
+    line-height: 75px;
+    margin: 20px;
+    font-kerning: 1px;
+}
+
+#corretto {
+    font-family: Helvetica;
+    font-size: 70px;
+    font-weight: 900;
+    line-height: 75px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-kerning: 1px;
+    color: white;
+}
+
+#join {
+    font-family: Helvetica;
+    margin-left: 20px;
+    font-size: 90px;
+    font-weight: 900;
+}
+
+#join2 {
+    font-family: Helvetica;
+    margin-left: 20px;
+    font-size: 90px;
+    font-weight: 900;
+    color: white;
+}
+
+.menu {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    margin: 0px;
+    padding: 20px;
+    font-kerning: 1px;  
+}
+
+#indietro {
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    font-size: 10px;
+    margin: 20px;
+    margin-top: 10px;
+    margin-bottom: 80px;
+    font-kerning: 1px;   
+}
+
+.nota {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 16px;
+    font-kerning: 1px;
+    margin: 20px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    text-align: left;
+    color: white;
+    background-color: black;
+}
+
+
+.nota2 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 16px;
+    font-kerning: 1px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 60px;
+    text-align: left;
+    color: black;
+}
+
+#click {
+    color: #ffd700;
+}
+
+.ismanifesto {
+    background-color: black;
+}
+
+.word {
+    color: #ffd700;
+}
+
+.footer {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 16px;
+    font-kerning: 1px;
+    margin: 20px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.profe {
+    font-size: 14px;
+}
+
+.loghi {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.name {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 12px;
+    font-weight: 700;
+    font-kerning: 1px;
+}
+
+h5 {
+    font-family: Helvetica;
+    font-size: 100px;
+    text-align: center;
+    color: white;
+    margin: 0px;
+    padding-top: 150px;
+}
+
+#title {
+    font-family: 'Roboto Mono', monospace; 
+    font-size: 36px;
+    margin-right: 20px;
+    margin-top: 150px;
+    margin-left: 150px;
+    line-height: 45px;
+}
+
+.mostra {
+    font-family: 'Roboto Mono', monospace; 
+    font-size: 16px;
+    margin-right: 150px;
+    margin-left: 150px;
+    margin-bottom: 80px;
+}
+
+.slideshow {
+    width: 100%;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a.indietro {
+    color: white;
+    text-decoration: none;
+}
+
+a.mostra {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    text-decoration: underline;
+    color: #ffd700;
+}
+
+.stand:hover, .stand:active {
+    text-decoration: underline;
+    color: black;
+}
+
+::selection { 
+    background: #ffd700; 
+    } 
+::-moz-selection { 
+    background: #ffd700; 
+}
+
+html, body {
+  height: 100%;
+  margin: 0px;
+  border: 0px;
+}
+
+#container {
+  height: 100%;
+  background-color: #fedb32;
+}
+
+video {
+    width: 100%;
+    height: auto;
+     position: relative;
+     padding: 0;
+  }
+
+.acetato {
+    width: 450px;
+    margin-left: 150px;
+    height: auto;
+    position: relative;
+}
+
+@media (min-width:414px) {
+  video {
+    height: 85%;
+     position: absolute;
+     padding: 0;
+  }
+}
+
+
