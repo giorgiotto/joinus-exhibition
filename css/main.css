@@ -24,6 +24,7 @@ svg > g:hover {
     margin: 20px;
     font-kerning: 1px;
     padding-top: 80px;
+    color: black;
 }
 
 #corretto {
@@ -34,6 +35,7 @@ svg > g:hover {
     margin-left: 20px;
     margin-right: 20px;
     font-kerning: 1px;
+    padding-top: 80px;
     color: white;
 }
 
@@ -42,6 +44,7 @@ svg > g:hover {
     margin-left: 20px;
     font-size: 90px;
     font-weight: 900;
+    color: black;
 }
 
 #join2 {
@@ -59,9 +62,17 @@ svg > g:hover {
     padding: 20px;
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
-    width: 97%; /* Full width */
+    width: 100%; /* Full width */
     background-color: white;
     display: block;
+}
+
+.color1 {
+    color: black;
+}
+
+.color2 {
+    color: white;
 }
 
 .menu2 {
@@ -71,7 +82,7 @@ svg > g:hover {
     padding: 20px;
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
-    width: 97%; /* Full width */
+    width: 100%; /* Full width */
     background-color: black;
     display: block;
 }
@@ -83,7 +94,7 @@ svg > g:hover {
     padding: 20px;
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
-    width: 97%; /* Full width */
+    width: 100%; /* Full width */
     background-color: #fedb32;
     display: block;
 }
@@ -122,7 +133,7 @@ svg > g:hover {
     color: black;
 }
 
-#click {
+.click {
     color: #ffd700;
 }
 
@@ -142,6 +153,7 @@ svg > g:hover {
     margin-top: 80px;
     margin-bottom: 80px;
     text-align: center;
+    color: black;
 }
 
 .profe {
@@ -186,6 +198,11 @@ h5 {
     margin-bottom: 80px;
 }
 
+.slide {
+    width: 100%;
+    margin-bottom: 80px;
+}
+
 .slideshow {
     width: 100%;
 }
@@ -210,9 +227,24 @@ a:hover, a:active {
     color: #ffd700;
 }
 
+.click:hover, .click:active {
+    text-decoration: underline;
+    color: gold;
+}
+
 .stand:hover, .stand:active {
     text-decoration: underline;
     color: black;
+}
+
+.color1:hover, .color1:active {
+    text-decoration: underline;
+    color: gold;
+}
+
+.color2:hover, .color2:active {
+    text-decoration: underline;
+    color: gold;
 }
 
 ::selection { 
@@ -240,9 +272,12 @@ video {
   }
 
 .acetato {
-    width: 450px;
-    margin-left: 150px;
+    width: 100%;
+    padding-right: 250px;
+    padding-left: 250px;
     height: auto;
-    display: inline
+    display: inline;
+    
 }
+
 
