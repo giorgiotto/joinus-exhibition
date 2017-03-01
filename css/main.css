@@ -282,7 +282,7 @@ video {
     padding: 0;
   }
 
-@media screen and (max-width: 414px) {
+@media screen and (min-device-width: 320px) and (max-device-width: 414px) { 
     .mostra {
         font-size: 36px;
         margin-top: 50px;
@@ -291,4 +291,3 @@ video {
         font-size: 66px;
     }
 }
-
