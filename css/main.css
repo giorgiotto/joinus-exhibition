@@ -289,9 +289,12 @@ video {
     .mostra {
         font-size: 36px;
         margin-top: 50px;
+        margin-left: 50px;
+        margin-right: 50px;
     }
     #title {
         font-size: 66px;
+        margin-left: 50px;
     }
     .menu {
         font-size: 40px;
