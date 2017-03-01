@@ -21,7 +21,8 @@ svg > g:hover {
     font-size: 70px;
     font-weight: 900;
     line-height: 75px;
-    margin: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
     font-kerning: 1px;
     padding-top: 80px;
     color: black;
@@ -190,6 +191,7 @@ h5 {
     margin-top: 150px;
     margin-left: 150px;
     line-height: 45px;
+    color: black;
 }
 
 .mostra {
@@ -198,6 +200,7 @@ h5 {
     margin-right: 150px;
     margin-left: 150px;
     margin-bottom: 80px;
+    color: black;
 }
 
 .acetato {
@@ -282,12 +285,43 @@ video {
     padding: 0;
   }
 
-@media screen and (min-device-width: 320px) and (max-device-width: 414px) { 
+@media (min-device-width: 320px) and (max-device-width: 414px) { 
     .mostra {
         font-size: 36px;
         margin-top: 50px;
     }
     #title {
         font-size: 66px;
+    }
+    .menu {
+        font-size: 40px;
+    }
+    .menu2 {
+        font-size: 40px;
+    }
+    .menu3 {
+        font-size: 40px;
+    }
+    .nota {
+        font-size: 36px;
+    }
+    .nota2 {
+        font-size: 36px;
+    }
+    #manifesto {
+        font-size: 100px;
+        line-height: 105px;
+        padding-top: 100px;
+    }
+    #corretto {
+        font-size: 100px;
+        line-height: 105px;
+        padding-top: 100px;
+    }
+    #join {
+        font-size: 150px;
+    }
+    #join2 {
+        font-size: 130px;
     }
 }
