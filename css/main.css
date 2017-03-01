@@ -23,6 +23,7 @@ svg > g:hover {
     line-height: 75px;
     margin: 20px;
     font-kerning: 1px;
+    padding-top: 80px;
 }
 
 #corretto {
@@ -56,7 +57,35 @@ svg > g:hover {
     font-size: 20px;
     margin: 0px;
     padding: 20px;
-    font-kerning: 1px;  
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 97%; /* Full width */
+    background-color: white;
+    display: block;
+}
+
+.menu2 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    margin: 0px;
+    padding: 20px;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 97%; /* Full width */
+    background-color: black;
+    display: block;
+}
+
+.menu3 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    margin: 0px;
+    padding: 20px;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 97%; /* Full width */
+    background-color: #fedb32;
+    display: block;
 }
 
 #indietro {
@@ -107,7 +136,7 @@ svg > g:hover {
 
 .footer {
     font-family: 'Roboto Mono', monospace;
-    font-size: 16px;
+    font-size: 15px;
     font-kerning: 1px;
     margin: 20px;
     margin-top: 80px;
@@ -207,23 +236,13 @@ html, body {
 video {
     width: 100%;
     height: auto;
-     position: relative;
-     padding: 0;
+    padding: 0;
   }
 
 .acetato {
     width: 450px;
     margin-left: 150px;
     height: auto;
-    position: relative;
+    display: inline
 }
-
-@media (min-width:414px) {
-  video {
-    height: 85%;
-     position: absolute;
-     padding: 0;
-  }
-}
-
 
