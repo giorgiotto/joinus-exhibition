@@ -98,6 +98,7 @@ svg > g:hover {
     width: 100%; /* Full width */
     background-color: #fedb32;
     display: block;
+    z-index: 1;
 }
 
 #indietro {
@@ -121,6 +122,7 @@ svg > g:hover {
     text-align: left;
     color: white;
     background-color: black;
+    padding: 8px;
 }
 
 
@@ -134,6 +136,26 @@ svg > g:hover {
     margin-top: 30px;
     text-align: left;
     color: black;
+    background-color: white;
+    padding: 8px;
+}
+
+.highlighted {
+    background-color: rgba(255,255,255,0.15);
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.highlightedBlack {
+    background-color: black;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.highlightedGold {
+    background-color: rgba(255,215,0,0.15);
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .click {
